@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            width: 1200px;
+            height: 500px;
+            border: 1px solid black;
+            position: absolute;
+
+        }
+        .grass{
+            height: 50%;
+            background-color: green;
+        }
+        .sun{
+            height: 50%;
+            background-color: skyblue;
+
+        }
+        .ball{
+
+            width: 100px;
+            height: 100px;
+            background-color: indianred;
+            border-radius: 50%;
+            position: relative;
+            
+            left: 550px;
+            bottom: -150px;
+            transition: transform 3s ease-in;
+        }
+        .ball:hover{
+            transform:translateY(-200px);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="sun">
+            <div class="ball"></div>
+
+        </div>
+        <div class="grass">
+            
+
+        </div>
+    </section>
+</body>
+</html>
